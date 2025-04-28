@@ -24,3 +24,13 @@ Stage 3: Handle Server Response
 This stage involved receiving the response from the server after sending the PIN. The response was decoded and analyzed to determine whether the PIN was correct or not.
 Stage 4: Brute-Force Loop with Rate Limiting
 The final stage involved implementing the brute-force loop that tries all possible PIN combinations, while respecting any rate-limiting the server imposes. If the server returns a "Please wait" message, the script waits for a short period before continuing.
+
+
+Files
+solution.py: main python script
+README.md: explains the solution process
+
+
+Drive Video Link (can't upload the video to youtube, youtube said the video is too long):
+https://drive.google.com/file/d/1jRP4lSA3p_1UVFp-3G7v7tX48bqcBQIw/view?usp=sharing
+
